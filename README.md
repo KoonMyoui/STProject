@@ -5,7 +5,7 @@
 * edit setting redirecURLs add http://localhost:3000 and save
 ## Code Side
 * Server folder
-  * npm install 
+  * npm install to install node module
   * .env change old clientId and SecretId to you clientId ,SecretId
   * npm start
 * Client folder
