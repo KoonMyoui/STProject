@@ -35,6 +35,7 @@ export default function useAuth(code) {
         })
         .catch(() => {
           window.location = "/"
+          console.log("เข้าตรงนี้")
         })
     }, (expiresIn - 60) * 1000)
 
